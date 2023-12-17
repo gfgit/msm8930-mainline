@@ -191,7 +191,7 @@ static const struct linear_range ncp_ranges[] = {
 	REGULATOR_LINEAR_RANGE(1500000,   0,  31, 50000),
 };
 
-static const struct regulator_linear_range corner_ranges[] = {
+static const struct linear_range corner_ranges[] = {
 	REGULATOR_LINEAR_RANGE(0, 0, 3, 1),
 };
 
